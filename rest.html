@@ -1,0 +1,78 @@
+<!Doctype Html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATE</title>
+    <link rel="stylesheet" href="css/mainCss.css">
+</head>
+    <body>
+        <div class="image_container">
+            <img src="images/eating2.gif" alt="Eating" style="width: 400px; height: 400px;">
+        </div>
+        <div class="restuarant_container">
+            <h2>Restuarant</h2>
+            <h3>Pick a Place to eat!</h3>
+
+            <div class="pick">
+                <div class="Menus">
+                    <h3>Cafe Topolis Menu</h3>
+                    <img src="images/Cafetop.png" width="300" height="250">
+                    <br>
+                    <a href="https://www.cafetopolis.com/menu">
+                        <button type="cafeTopMenu" id="buttonForm">Menu</button>
+                    </a>
+                    <h4>Sano Pizza</h4>
+                    <img src="images/Sanopizza.png" width="300" height="450">
+                    <br>
+                    <a href="https://www.sano.pizza/temple-bar/about-us-temple-bar">
+                        <button type="SanoMenu" id="buttonForm">Menu</button>
+                    </a>
+                    <h4>Dublin Pizza Company</h4>
+                    <img src="images/DublinPizzaCompany.png" width="350" height="300">
+                    <br>
+                    <a href="https://www.dublinpizzacompany.ie/pdf-menu.html">
+                        <button type="DublinPizzaComp" id="buttonForm">Menu</button>
+                    </a>
+                    <h4>All Bar Chicken</h4>
+                    <img src="images/AllBarChicken.png" width="350" height="300">
+                    <br>
+                    <a href="https://allbarchicken.ie/food-menu/">
+                        <button type="allBarChickMenu" id="buttonForm">Menu</button>
+                    </a>
+
+                    <form action="https://api.web3forms.com/submit" id="form" method="POST">
+
+                        <input type="hidden" name="access_key" value="625ba5ff-4f5d-4f85-a055-dbe23db42a74">
+                        <!-- <h3>Choose here!</h3> -->
+                        <!-- Cafe Topolois
+                        <label type="cafeTopolis">Cafe Topolis</label>
+                        <input type="radio" name="cafeTopolis" id="cafeTopolis" value="text" checked required> -->
+                        <!--Sano-->
+                        <!-- <label type="Sano">Sano Pizza</label>
+                        <input type="radio" name="cafeTopolis" id="cafeTopolis" value="text" checked required> -->
+                        <br>
+                        <!--Dublin Pizza Company-->
+                        <!-- <label type="">Dublin Pizza Company</label>
+                        <input type="radio" name="cafeTopolis" id="cafeTopolis" value="text" checked required> -->
+                        <!--All Bar Chicken-->
+                        <!-- <label type="allBarChick">All Bar Chicken</label>
+                        <input type="radio" name="cafeTopolis" id="cafeTopolis" value="text" checked required> -->
+
+                        <h3>Input Info here!</h3>
+                        <label for="name">Name:</label>
+                        <input for="name" id="name" name="name" required><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required><br><br>
+                        <label for="message">Input restuarant chosen here:</label><br><br>
+                        <textarea name="message" required></textarea>
+                        <div class="button">
+                            <input type="submit" id="submit" value="Submit">
+                            <input type="reset" id="reset" value="reset">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+  </body>
+</html>

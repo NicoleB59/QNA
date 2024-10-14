@@ -1,0 +1,123 @@
+body {
+    /*Bakcground*/
+    background-color: #F2B8C6;
+    /*Image*/
+    padding-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.Box1 {
+    text-align: center;
+}
+
+#buttonYes {
+    background-color: #FC94AF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#buttonNo {
+    background-color: #FC94AF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#buttonPickP {
+    background-color: #FC94AF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#buttonGoBack {
+    background-color: #FC94AF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#message {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#submit {
+    background-color: #FC94AF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#reset {
+    background-color: #FC94AF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#buttonForm {
+    background-color: #FC94AF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#form {
+    padding-top: 30px;
+}
+
+.button {
+    text-align: center;
+    padding-top: 10px;
+}
